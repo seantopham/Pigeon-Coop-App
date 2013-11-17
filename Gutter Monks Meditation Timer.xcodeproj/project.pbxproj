@@ -24,6 +24,8 @@
 		144C0B4116A8FB7D00E0A04F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144C0B1916A8FB7D00E0A04F /* Foundation.framework */; };
 		144C0B4916A8FB7D00E0A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 144C0B4716A8FB7D00E0A04F /* InfoPlist.strings */; };
 		144C0B4C16A8FB7D00E0A04F /* Gutter_Monks_Meditation_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144C0B4B16A8FB7D00E0A04F /* Gutter_Monks_Meditation_TimerTests.m */; };
+		144C0B5616A8FBE400E0A04F /* timer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 144C0B5516A8FBE400E0A04F /* timer.jpg */; };
+		144C0B5816A91C9500E0A04F /* timer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 144C0B5716A91C9500E0A04F /* timer2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		144C0B4816A8FB7D00E0A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		144C0B4A16A8FB7D00E0A04F /* Gutter_Monks_Meditation_TimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gutter_Monks_Meditation_TimerTests.h; sourceTree = "<group>"; };
 		144C0B4B16A8FB7D00E0A04F /* Gutter_Monks_Meditation_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gutter_Monks_Meditation_TimerTests.m; sourceTree = "<group>"; };
+		144C0B5516A8FBE400E0A04F /* timer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timer.jpg; path = ../timer.jpg; sourceTree = "<group>"; };
+		144C0B5716A91C9500E0A04F /* timer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = timer2.jpg; path = ../timer2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		144C0B0816A8FB7C00E0A04F = {
 			isa = PBXGroup;
 			children = (
+				144C0B5716A91C9500E0A04F /* timer2.jpg */,
+				144C0B5516A8FBE400E0A04F /* timer.jpg */,
 				144C0B1D16A8FB7D00E0A04F /* Gutter Monks Meditation Timer */,
 				144C0B4416A8FB7D00E0A04F /* Gutter Monks Meditation TimerTests */,
 				144C0B1616A8FB7D00E0A04F /* Frameworks */,
@@ -241,6 +247,8 @@
 				144C0B2E16A8FB7D00E0A04F /* Default-568h@2x.png in Resources */,
 				144C0B3116A8FB7D00E0A04F /* MainStoryboard_iPhone.storyboard in Resources */,
 				144C0B3416A8FB7D00E0A04F /* MainStoryboard_iPad.storyboard in Resources */,
+				144C0B5616A8FBE400E0A04F /* timer.jpg in Resources */,
+				144C0B5816A91C9500E0A04F /* timer2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

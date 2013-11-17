@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Gutter_Monks_Meditation_TimerViewController : UIViewController
+@interface Gutter_Monks_Meditation_TimerViewController : UIViewController {
+    
+    IBOutlet UILabel *time;
+    
+    NSTimer *counter;
+    
+    int theTime;
+    
+}
+
+- (IBAction)Start;
+- (IBAction)Stop;
+- (IBAction)Reset;
+
+- (void)showActivity;
+- (void)showTime;
 
 @end
